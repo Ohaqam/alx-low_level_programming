@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
-* main - Prints with fwrite 
+* main - Prints with fwrite
 *
 * Return: Always 0 (Success)
 */
