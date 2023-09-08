@@ -8,14 +8,11 @@
 
 int main(void)
 {
-char c = 'a';
-if (c <= 'z')
+char c;
+ for (c = 'a' ; c <= 'z' ; c++)
 {
-else if (c != 'e' && c != 'q')
-{
+if (c != 'e' && c != 'q')
 putchar(c);
-}
-else c++;
 }
 putchar('\n');
 return (0);
