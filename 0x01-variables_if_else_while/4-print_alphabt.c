@@ -11,8 +11,8 @@ int main(void)
 char c = 'a';
 while (c <= 'z')
 {
-remove('e');
-remove('q');
+remove(5);
+remove(17);
 putchar(c);
 c++;
 }
