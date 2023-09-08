@@ -9,10 +9,8 @@
 int main(void)
 {
 char c = 'a';
-while (c <= 'z')
+if (c <= 'z' && c = !'e')
 {
-remove(5);
-remove(17);
 putchar(c);
 c++;
 }
