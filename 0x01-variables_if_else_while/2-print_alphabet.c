@@ -6,4 +6,6 @@
 * Return: Always 0 (Success)
 */
 
+char c = ' ';
+
 
