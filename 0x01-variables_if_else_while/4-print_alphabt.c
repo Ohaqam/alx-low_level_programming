@@ -11,7 +11,7 @@ int main(void)
 char c = 'a';
 if (c <= 'z')
 {
-if (c != 'e' && c != 'q')
+else if (c != 'e' && c != 'q')
 {
 putchar(c);
 }
