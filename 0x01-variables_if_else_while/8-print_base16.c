@@ -17,7 +17,7 @@ while (n < 10)
 putchar((n % 10) + '0');
 n++;
 }
-while (c <=f)
+while (c <= f)
 {
 putchar(c);
 c++
