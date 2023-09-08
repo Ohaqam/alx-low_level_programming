@@ -9,7 +9,7 @@
 int main(void)
 {
 char c = 'a';
-if (c <= 'z' || c != 'e')
+ if (c <= 'z' && !('e' || 'q'))
 {
 putchar(c);
 c++;
