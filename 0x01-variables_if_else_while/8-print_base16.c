@@ -8,7 +8,7 @@
 
 int main(void)
 {
-hex n = 0;
+int n = 0;
 while (n < 16)
 {
 putchar((n % 16) + '0');
