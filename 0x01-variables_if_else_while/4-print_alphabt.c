@@ -9,8 +9,10 @@
 int main(void)
 {
 char c = 'a';
-while (c != 'q' && c != 'e' && c <= 'z')
+while (c <= 'z')
 {
+remove('e');
+remove('q');
 putchar(c);
 c++;
 }
