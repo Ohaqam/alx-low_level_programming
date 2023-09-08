@@ -17,7 +17,7 @@ putchar(c);
 }
 c++;
 }
-putchar('\n');
+else putchar('\n');
 return (0);
 }
 
