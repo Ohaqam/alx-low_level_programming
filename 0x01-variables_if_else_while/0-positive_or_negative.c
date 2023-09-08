@@ -12,7 +12,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-printf("is positive");
+  printf("%d\n,is positive",n);
 }
 if (n == 0)
 {
