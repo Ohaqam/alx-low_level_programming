@@ -14,7 +14,7 @@ while (c < 'z')
 putchar(c);
 c++;
 }
-putchar(c);
+putchar('\n');
 return(0);
 }
 
