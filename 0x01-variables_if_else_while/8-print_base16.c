@@ -7,9 +7,8 @@
 */
 
 int main(void)
-{
-int n = 0;
-while (n < 16)
+char n = '0';
+while (n <= 'f')
 {
 putchar((n % 16) + '0');
 n++;
