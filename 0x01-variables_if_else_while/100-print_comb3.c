@@ -16,7 +16,7 @@ putchar((n1 % 10) + '0');
 for (n2 = 0 ; n2 < 10 ; n2++)
 {
 putchar((n2 % 10) + '0');
-if (n == 99)
+if (n1 == 9 && n2 == 9)
 break;
 putchar(',');
 putchar(' ');
