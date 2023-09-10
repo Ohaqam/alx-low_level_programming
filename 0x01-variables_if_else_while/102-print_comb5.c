@@ -16,7 +16,7 @@ for (n2 = n1 ; n2 < 100 ; n2++)
 {
 if (n2 != n1)
 {
-putchar((n1 /10) + 48);
+putchar((n1 / 10) + 48);
 putchar((n1 % 10) + 48);
 putchar(' ');
 putchar((n2 / 10) + 48);
