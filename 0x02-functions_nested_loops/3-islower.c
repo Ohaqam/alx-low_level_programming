@@ -13,6 +13,6 @@ if (c >= 'a' && c <= 'z')
 _putchar('0' + 1);
 }
 else
-_putchar('0' + 0);
+_putchar('0' + c%10);
 return (0);
 }
