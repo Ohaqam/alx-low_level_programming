@@ -3,7 +3,7 @@
 /**
 * main - check the code
 * @c:checks for alphabetic character.
-* @c:Returns 1 if c is a letter, lowercase or uppercase
+* @c:Returns 1 if c is a letter, lowercase or uppercase, Returns 0 otherwise
 * Return: Always 0.
 */
 
