@@ -3,6 +3,7 @@
 /**
 * main - check the code
 * @c:checks for alphabetic character.
+* @c:int _isalpha(int c).
 * Return: Always 0.
 */
 
