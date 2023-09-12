@@ -2,7 +2,7 @@
 
 /**
 * main - check the code
-* _isalpha(int c)
+* _isalpha - checks 
 * @c:checks for alphabetic character.
 * Returns 1 if c is a letter, lowercase or uppercase, Returns 0 otherwise
 * Return: Always 0.
