@@ -1,14 +1,20 @@
 #include "main.h"
 
 /**
-* main - check the code
-*
+* print_sign - checks
+* @c: prints the sign of a number
 * Return: Always 0.
 */
 
-int main(void)
+int print_sign(int n)
 {
-print_alphabet();
+if (n > 0)
+return (1);
+_putchar(43);
+else if (n == 0)
 return (0);
+_putchar(48);
+else
+return (-1);
+_putchar(45);
 }
-
