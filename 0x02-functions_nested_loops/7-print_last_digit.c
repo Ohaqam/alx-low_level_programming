@@ -6,9 +6,15 @@
 * Return: Always 0.
 */
 
-int main(void)
+
+int print_last_digit(int i)
 {
-print_alphabet();
-return (0);
+int ld;
+if (i < 0)
+ld = -1 * (n % 10);
+else
+ld = n % 10;
+_putchar(ld + '0');
+return (ld);
 }
 
