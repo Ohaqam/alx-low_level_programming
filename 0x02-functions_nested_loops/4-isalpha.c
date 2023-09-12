@@ -2,7 +2,7 @@
 
 /**
 * main - check the code
-* @c:
+* @c:checks for alphabetic character.
 * Return: Always 0.
 */
 
