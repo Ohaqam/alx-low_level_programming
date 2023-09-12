@@ -2,7 +2,7 @@
 
 /**
 * main - check the code
-* @
+* @c:
 * Return: Always 0.
 */
 
