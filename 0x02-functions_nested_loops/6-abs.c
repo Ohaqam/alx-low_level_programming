@@ -2,7 +2,7 @@
 
 /**
 * _abs - prints the absolute value of a number
-*@i: number targeted
+*@n: number targeted
 *Return: returns 0
 */
 
