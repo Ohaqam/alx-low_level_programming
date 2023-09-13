@@ -1,14 +1,25 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
-* main - check the code
-*
-* Return: Always 0.
+*print_to_98 - prints natural
+*numbers from n to 98
+*@n:integer to start by
+*return: returns nothing
 */
 
-int main(void)
+void print_to_98(int n)
 {
-print_alphabet();
-return (0);
+if (n >= 98)
+{
+while (n > 98)
+printf("%d, ", n--);
+printf("%d\n", n);
 }
-
+else
+{
+while (n < 98)
+printf("%d, ", n++);
+printf("%d\n", n);
+}
+}
