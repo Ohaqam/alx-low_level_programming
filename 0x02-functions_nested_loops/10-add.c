@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
-* main - check the code
-*
-* Return: Always 0.
+*add - sums up two numbers
+*@x:first integer
+*@y:second integer
+*Return: returns 0
 */
 
-int main(void)
+int add(int x, int y)
 {
-print_alphabet();
-return (0);
+return (x + y);
 }
-
