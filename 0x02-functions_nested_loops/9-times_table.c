@@ -1,14 +1,28 @@
 #include "main.h"
 
 /**
-* main - check the code
+*times_table - prints the 9 times table
 *
-* Return: Always 0.
+*Return: returns nothing
 */
 
-int main(void)
+void times_table(void)
 {
-print_alphabet();
-return (0);
+int dgt, mpy, res;
+for (dgt = 0; dgt <= 9; dgt++)
+{
+_putchar('0');
+for (mpy = 1; mpy <= 9; mpy++)
+{
+_putchar(',');
+_putchar(' ');
+res = dgt * mpy;
+if (res <= 9)
+_putchar(' ');
+else
+_putchar((res / 10) + '0');
+_putchar((res % 10) + '0');
 }
-
+_putchar('\n');
+}
+}
