@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* main - check the code
+*jack_bauer - prints each minute of the day
 *
-* Return: Always 0.
+*Return:returns 0
 */
 
 void jack_bauer(void)
