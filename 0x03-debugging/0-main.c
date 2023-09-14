@@ -9,6 +9,6 @@ int main(void)
 {
 int i;
 i = 98;
-printf("%d is zero\n", positive_or_negative(i));
+printf("%d is positive\n", positive_or_negative(i));
 return (0);
 }
