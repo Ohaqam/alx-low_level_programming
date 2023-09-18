@@ -2,7 +2,7 @@
 
 /**
 *_puts - function that prints a string
-* @newstr: string to print
+* @str: string to print
 * On success: return the number of characters printed
 */
 
