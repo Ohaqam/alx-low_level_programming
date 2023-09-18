@@ -8,9 +8,7 @@
 
 void _puts(char *str)
 {
-char newstr[];
-newstr[] = *str;
-while (newstr[])
-_putchar(newstr[]++);
+while (*str)
+_putchar(str++);
 _putchar('\n');
 }
