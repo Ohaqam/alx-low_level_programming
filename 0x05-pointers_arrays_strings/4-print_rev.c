@@ -6,15 +6,14 @@
 
 void print_rev(char *s)
 {
-  int len = 0, index = 0, count, inc;
+int len = 0, index = 0, count, inc;
 len = *s;
 for (count = 0; s[count] != '\0'; count++)
 {
 inc++;
-}
 for (index = len - 1; index >=0 ; index--)
 {_putchar(s[index]);
 _putchar('\n');
 }
 }
- 
+} 
