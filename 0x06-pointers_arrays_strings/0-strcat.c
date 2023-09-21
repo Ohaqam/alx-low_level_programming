@@ -3,7 +3,7 @@
 /**
 * _strcat - concatenates two strings
 * @dest: Destination string
-* @@src: Source String
+* @src: Source String
 * Return: Returns pointer to dest
 */
 
