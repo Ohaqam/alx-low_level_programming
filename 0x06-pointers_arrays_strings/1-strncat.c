@@ -4,6 +4,7 @@
 * _strncat - function that concatenates two strings.
 * @dest:     Parameter one.
 * @src:      Parameter two.
+* @n:        Parameter three.
 * Return:    Returns dest.
 */
 
