@@ -5,7 +5,6 @@
 * @s:       Parameter one.
 * @c:       Parameter two.
 * Return:   Returns s + i.
-* Return:   Returns NULL.
 */
 
 char *_strchr(char *s, char c)
