@@ -17,7 +17,7 @@ return (_sqrt(0, n));
 /**
 * _sqrt - function that returns square root.
 * @n:     Parameter one.
-* @n:     Parameter two.
+* @x:     Parameter two.
 * Return: Returns sqrt.
 */
 
