@@ -10,14 +10,22 @@ int is_prime_number(int n)
 {
 if (n <= 1)
 return (0);
-return (is_prime(n, start));
+return (is_prime(n, s));
 }
 
-int is_prime(int n, int start)
+
+/**
+* is_prime - function that returns prime number.
+* @n:        Parameter one.
+* @s:        Parameter two.
+* Return:    Returns prime.
+*/
+
+int is_prime(int n, int s)
 {
-if (start <= 1)
+if (s <= 1)
 return (1);
-else if (n % start == 0)
+else if (n % s == 0)
 return (0);
-return (is_prime(n, start - 1));
+return (is_prime(n, s - 1));
 }
