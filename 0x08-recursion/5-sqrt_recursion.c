@@ -15,7 +15,10 @@ return (_sqrt(0, n));
 }
 
 /**
-* * _sqrt - function that returns square root.
+* _sqrt - function that returns square root.
+* @n:     Parameter one.
+* @n:     Parameter two.
+* Return: Returns sqrt.
 */
 
 int _sqrt(int n, int x)
