@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* is_prime_number - function returns 1 if input is prime number, otherwise return 0.
+* is_prime_number - function retn 1 if input prime number,o/w return 0.
 * @n:      Parameter one.
 * Return:  Returns prime number.
 */
