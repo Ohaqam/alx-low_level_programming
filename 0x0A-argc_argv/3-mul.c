@@ -3,9 +3,9 @@
 
 /**
 * main - Funcion that prints multp of two numbers
-*@argc:  Parameter one.
-*@argv:  Parameter two.
-*Return: returns 0 or 1.
+* @argc: Parameter one.
+* @argv: Parameter two.
+* Return:Returns 0 else 1.
 */
 
 int main(int argc, char *argv[])
