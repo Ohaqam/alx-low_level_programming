@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
 * main - Funcion that prints multp of two numbers
 *@argc:  Parameter one.
 *@argv:  Parameter two.
-*Return: returns 0
+*Return: returns 0 or 1.
 */
 
 int main(int argc, char *argv[])

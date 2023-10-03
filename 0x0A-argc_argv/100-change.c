@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-* main - Function that prints the min number of coins to make change for an amount of money
+* main -  Func prints min number of coins for change for an amt of money
 * @argc:  Parameter one.
 * @argv:  Parameter two.
 * Return: Returns 0 else 1
