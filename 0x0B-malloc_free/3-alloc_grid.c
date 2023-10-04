@@ -25,6 +25,7 @@ array[i] = (int *) malloc(sizeof(int) * width);
 if (array[i] != NULL)
 {
 for (j = 0; j < width; j++)
+{
 array[i][j] = 0;
 }
 else
