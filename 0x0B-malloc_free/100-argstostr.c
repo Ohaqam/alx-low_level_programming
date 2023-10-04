@@ -9,7 +9,7 @@
 
 char *argstostr(int ac, char **av)
 {
-		
+
 char *new_string = NULL;
 int k = 0, i = ac, j, sum = 0, temp = 0;
 
@@ -47,7 +47,9 @@ return (new_string);
 
 int len(char *str)
 {
+
 int len = 0;
+
 if (str != NULL)
 {
 while (str[len])
