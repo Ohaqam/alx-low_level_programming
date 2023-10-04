@@ -39,6 +39,7 @@ return (NULL);
 }
 return (array);
 }
+}
 else
 {
 return (NULL);
