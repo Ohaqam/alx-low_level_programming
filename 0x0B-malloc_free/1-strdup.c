@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _strdup - function that creates an array of chars, and initializes it with a specific char.
+* _strdup - function creates array of chars, and init it with a specific char.
 * @str:     Parameter one.
 * Return:   Returns NULL or cpy
 */
