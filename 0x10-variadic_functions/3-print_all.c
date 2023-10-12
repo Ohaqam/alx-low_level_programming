@@ -15,7 +15,7 @@ int i = 0;
 char *str;
 
 va_start(l, format);
-while (format && format[i])
+while (format != NULL && format[i] != '\0')
 {
 switch (format[i])
 {
@@ -23,7 +23,7 @@ case 'c':
 printf("%c", (char) va_arg(l, int));
 break;
 case 'i':
-printf("%i", va_arg(l, int));
+printf("%d", va_arg(l, int));
 break;
 case 'f':
 printf("%f", va_arg(l, double));
