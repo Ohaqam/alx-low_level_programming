@@ -7,7 +7,7 @@
 * Return:       Returns func result or NULL
 */
 
- 
+
 int (*get_op_func(char *s))(int a, int b)
 {
 op_t ops[] = {
