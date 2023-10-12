@@ -11,10 +11,9 @@ void print_all(const char * const format, ...)
 {
 
 va_list l;
-int i;
+int i = 0;
 char *str;
 
-i = 0;
 va_start(l, format);
 while (format && format[i])
 {
@@ -24,7 +23,7 @@ case 'c':
 printf("%c", (char) va_arg(l, int));
 break;
 case 'i':
-printf("%d", va_arg(l, int));
+printf("%i", va_arg(l, int));
 break;
 case 'f':
 printf("%f", va_arg(l, double));
