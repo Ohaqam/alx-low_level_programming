@@ -1,21 +1,32 @@
 #include "main.h"
 
 /**
-* clear_bit - function that converts a binary number to an unsigned int.
-* @n: Parameter one.
-* @i: Parameter two.
-* Return: Returns 1 or -1.
+* binary_to_uint - function that converts a binary number to an unsigned int.
+* @b:              Parameter One.
+* Return:          Returns i.
 */
 
-int clear_bit(unsigned long int *n, unsigned int i)
+unsigned int binary_to_uint(const char *b)
 {
 
-unsigned int y;
+unsigned int i;
+int l, b2;
 
-if (i > 63)
-return (-1);
-y = 1 << i;
-if (*n & y)
-*n ^= y;
-return (1);
+if (!b)
+return (0);
+i = 0;
+for (l = 0; b[l] != '\0'; l++)
+;
+for (l--, b2 = 1; l >= 0; l--, b2 *= 2)
+{
+if (b[l] != '0' && b[l] != '1')
+{
+return (0);
+}
+if (b[l] & 1)
+{
+i += b2;
+}
+}
+return (i);
 }
