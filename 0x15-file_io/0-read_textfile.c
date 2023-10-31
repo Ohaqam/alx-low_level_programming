@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* read_textfile - function that reads a text file and prints it to the POSIX standard output.
+* read_textfile - fcn reads a txt file and prints to POSIX standard output.
 * @filename:      Parameter one.
 * @letters:       Parameter two.
 * Return:         Returns w
